@@ -1,0 +1,1419 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>PocketEd - Financial Learning, Reimagined</title>
+
+    <meta name="description"
+        content="PocketEd offers fun, gamified financial literacy courses for students in India. Learn about budgeting, saving, and investing to build a secure future.">
+    <meta property="og:title" content="PocketEd - Financial Learning, Reimagined" />
+    <meta property="og:description"
+        content="A new experience in financial education designed for the students of modern India." />
+    <meta property="og:image" content="https://www.pocketed.in/images/social-sharing-image.webp" />
+    <meta property="og:url" content="https://www.pocketed.in" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="PocketEd - Financial Learning, Reimagined">
+    <meta name="twitter:description"
+        content="A new experience in financial education designed for the students of modern India.">
+    <meta name="twitter:image" content="https://www.pocketed.in/images/social-sharing-image.webp">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="icon" href="https://storage.googleapis.com/gemini-prod/images/c639eda2-a16f-4a41-b586-9eb983940177"
+        type="image/svg+xml">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://www.google.com/recaptcha/api.js?render=YOUR_GOOGLE_RECAPTCHA_V3_SITE_KEY_HERE"></script>
+
+</head>
+
+<body class="font-manrope text-brand-dark bg-brand-light background-gradient">
+
+    <header class="fixed top-0 left-0 w-full z-50 transition-all duration-300 bg-white/80 backdrop-blur-md">
+        <div class="container mx-auto flex justify-between items-center relative p-4 md:p-6">
+            <a href="#home" id="logo-link" class="nav-link text-3xl font-extrabold tracking-wider z-10">
+                <span class="text-brand-blue desktop-logo">Pocket</span><span
+                    class="text-brand-blue mobile-logo hidden">Pocket</span><span class="text-brand-yellow">Ed</span>
+            </a>
+            <!-- Desktop Navigation - Visible on md screens and up -->
+            <nav id="main-nav"
+                class="hidden md:flex bg-white/80 backdrop-blur-md rounded-full border border-gray-200 shadow-lg items-center space-x-2 p-2">
+                <a href="#problem"
+                    class="nav-link px-5 py-2 rounded-full hover:bg-gray-200/60 transition-all duration-300 hover:-translate-y-0.5">Mission</a>
+                <a href="#courses-page"
+                    class="nav-link px-5 py-2 rounded-full hover:bg-gray-200/60 transition-all duration-300 hover:-translate-y-0.5">Courses</a>
+                <a href="#journey"
+                    class="nav-link px-5 py-2 rounded-full hover:bg-gray-200/60 transition-all duration-300 hover:-translate-y-0.5">Journey</a>
+                <a href="#blog-page"
+                    class="nav-link px-5 py-2 rounded-full hover:bg-gray-200/60 transition-all duration-300 hover:-translate-y-0.5">Blog</a>
+                <a href="#community-page"
+                    class="nav-link px-5 py-2 rounded-full hover:bg-gray-200/60 transition-all duration-300 hover:-translate-y-0.5">Community</a>
+                <a href="#enroll"
+                    class="nav-link px-5 py-2 rounded-full bg-brand-dark text-white hover:bg-gray-800 transition-all duration-300 hover:scale-105">Enroll</a>
+            </nav>
+
+            <!-- Mobile Navigation - Visible on smaller screens -->
+            <div class="topnav md:hidden">
+                <a href="javascript:void(0);" class="icon" onclick="toggleMobileMenu()">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <div id="myLinks"
+                    class="hidden bg-white/95 backdrop-blur-md shadow-lg absolute top-full left-0 right-0 mt-2 rounded-b-xl border-t border-gray-200 z-50">
+                    <a href="#problem" class="nav-link text-brand-dark hover:bg-gray-100">Mission</a>
+                    <a href="#courses-page" class="nav-link text-brand-dark hover:bg-gray-100">Courses</a>
+                    <a href="#journey" class="nav-link text-brand-dark hover:bg-gray-100">Journey</a>
+                    <a href="#blog-page" class="nav-link text-brand-dark hover:bg-gray-100">Blog</a>
+                    <a href="#community-page" class="nav-link text-brand-dark hover:bg-gray-100">Community</a>
+                    <a href="#enroll" class="nav-link bg-brand-dark text-white">Enroll</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="md:pt-24">
+        <div id="home-page" class="page-section active">
+            <section id="home" class="nav-section scroll-section text-center pt-24 md:pt-32">
+                <div class="reveal">
+                    <h1 id="hero-headline"
+                        class="text-4xl md:text-7xl font-extrabold text-white leading-tight px-4 md:px-0">
+                        <span class="gradient-text">Financial </span><span class="text-brand-blue">Learning</span><span
+                            class="gradient-text">,</span> <br class="hidden md:block" /> <span
+                            class="text-brand-yellow">Reimagined.</span>
+                    </h1>
+                    <p id="hero-tagline" class="text-lg md:text-xl text-gray-200 max-w-2xl mx-auto mt-6 px-4 md:px-0">
+                        <span class="gradient-text">A new experience designed for the students of modern India.</span>
+                    </p>
+                    <div id="hero-scroll-prompt" class="mt-12 text-gray-200">
+                        <p class="gradient-text">Scroll to begin</p>
+                        <svg class="bouncing-arrow w-6 h-6 mx-auto mt-2 text-brand-yellow" fill="none"
+                            stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                        </svg>
+                    </div>
+                </div>
+            </section>
+            <section id="problem" class="nav-section scroll-section bg-gray-50/70">
+                <div class="reveal container mx-auto px-6">
+                    <div class="grid grid-cols-1 lg:grid-cols-3 lg:grid-rows-2 gap-8 max-w-7xl mx-auto">
+                        <div
+                            class="lg:col-span-2 lg:row-span-1 bg-white p-10 rounded-3xl shadow-lg border card-lift flex flex-col justify-center">
+                            <h2 class="text-4xl md:text-7xl font-extrabold text-brand-dark mb-4">
+                                <span class="text-brand-blue">The</span> <span class="text-brand-yellow">Mission.</span>
+                            </h2>
+                            <p class="text-lg text-gray-700">
+                                With only 27% of Indian adults being financially literate, a critical gap exists. Our
+                                mission is to empower the next generation with the knowledge and confidence to navigate
+                                the world of finance.
+                            </p>
+                        </div>
+                        <div
+                            class="lg:col-span-1 lg:row-span-2 bg-brand-dark text-white p-10 rounded-3xl shadow-lg card-lift flex flex-col">
+                            <div class="mb-6">
+                                <div
+                                    class="w-16 h-16 bg-brand-yellow/20 text-brand-yellow rounded-2xl flex items-center justify-center mb-4">
+                                    <i class="uil uil-shield-exclamation text-4xl"></i>
+                                </div>
+                                <h3 class="text-3xl font-bold">Why It's Critical</h3>
+                            </div>
+                            <p class="text-gray-300 mb-4">Low financial literacy leads to crippling debt, vulnerability
+                                to scams, and missed opportunities for wealth creation.</p>
+                            <p class="text-gray-300">In a rapidly growing digital economy, understanding money is no
+                                longer optional—it's a fundamental life skill for survival and success.</p>
+                        </div>
+                        <div class="lg:col-span-1 lg:row-span-1 bg-white p-10 rounded-3xl shadow-lg border card-lift">
+                            <div class="mb-4">
+                                <div
+                                    class="w-16 h-16 bg-brand-blue/10 text-brand-blue rounded-2xl flex items-center justify-center mb-4">
+                                    <i class="uil uil-game-structure text-4xl"></i>
+                                </div>
+                                <h3 class="text-3xl font-bold text-brand-dark">Our Approach</h3>
+                            </div>
+                            <p class="text-gray-600">We make learning about finance intuitive and fun through gamified
+                                modules, relatable storytelling, and an India-centric curriculum.</p>
+                        </div>
+                        <div
+                            class="lg:col-span-1 lg:row-span-1 bg-brand-blue text-white p-10 rounded-3xl shadow-lg card-lift">
+                            <div class="mb-4">
+                                <div
+                                    class="w-16 h-16 bg-white/20 text-white rounded-2xl flex items-center justify-center mb-4">
+                                    <i class="uil uil-rocket text-4xl"></i>
+                                </div>
+                                <h3 class="text-3xl font-bold">Our Vision</h3>
+                            </div>
+                            <p class="text-gray-200">To create a financially savvy generation that can build a secure
+                                future for themselves and contribute to India's economic growth.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="why-choose" class="nav-section py-16 md:py-24">
+                <div class="text-center reveal max-w-3xl mx-auto mb-16 px-6">
+                    <h2 class="text-4xl md:text-7xl font-extrabold text-brand-dark mb-4">Why Choose <span
+                            class="text-brand-blue">Pocket</span><span class="text-brand-yellow">Ed</span>?</h2>
+                    <p class="text-lg text-gray-700">We've built a learning experience that's modern, engaging, and
+                        designed for India.</p>
+                </div>
+                <div class="max-w-6xl mx-auto px-4 md:px-6">
+                    <div
+                        class="flex overflow-x-auto space-x-6 pb-4 md:grid md:grid-cols-3 md:gap-10 md:space-x-0 mobile-scrollbar-hidden">
+                        <div
+                            class="flex-shrink-0 w-4/5 md:w-auto text-center bg-white p-8 rounded-2xl shadow-lg border card-lift">
+                            <div class="inline-block p-5 bg-brand-blue/10 rounded-2xl mb-6">
+                                <svg class="w-10 h-10 text-brand-blue" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M12 21a9.004 9.004 0 0 0 8.6-6.942M3.4 14.058a9.004 9.004 0 0 0 8.6 6.942m8.6-6.942a9.004 9.004 0 0 0-8.6-6.942M12 3a9.004 9.004 0 0 0-8.6 6.942M3.4 14.058 12 21m8.6-6.942-8.6 6.942" />
+                                </svg>
+                            </div>
+                            <h3 class="text-2xl font-bold mb-3">India-Centric Curriculum</h3>
+                            <p class="text-gray-600">Modules designed with Indian students, schools (SSC/CBSE), and
+                                financial systems in mind.</p>
+                        </div>
+                        <div
+                            class="flex-shrink-0 w-4/5 md:w-auto text-center bg-white p-8 rounded-2xl shadow-lg border card-lift">
+                            <div class="inline-block p-5 bg-brand-yellow/20 rounded-2xl mb-6">
+                                <svg class="w-10 h-10 text-yellow-500" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                                </svg>
+                            </div>
+                            <h3 class="text-2xl font-bold mb-3">Engaging & Gamified</h3>
+                            <p class="text-gray-600">Learning through stories, challenges, and interactive elements that
+                                make finance fun, not boring.</p>
+                        </div>
+                        <div
+                            class="flex-shrink-0 w-4/5 md:w-auto text-center bg-white p-8 rounded-2xl shadow-lg border card-lift">
+                            <div class="inline-block p-5 bg-brand-purple/10 rounded-2xl mb-6">
+                                <svg class="w-10 h-10 text-brand-purple" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                    <path d="M12 14l9-5-9-5-9 5 9 5z" />
+                                    <path
+                                        d="M12 14l6.16-3.422a12.083 12.083 0 0 1 .665 6.479A11.952 11.952 0 0 1 12 20.055a11.952 11.952 0 0 1-6.824-2.998 12.078 12.078 0 0 1 .665-6.479L12 14zm-4 6v-7.5l4-2.222" />
+                                </svg>
+                            </div>
+                            <h3 class="text-2xl font-bold mb-3">Expert-Designed Content</h3>
+                            <p class="text-gray-600">Our curriculum is developed by financial experts and educators to
+                                ensure accuracy and effectiveness.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="unlock-potential" class="nav-section py-16 md:py-24 bg-gray-50/70 overflow-hidden">
+                <div class="text-center reveal max-w-3xl mx-auto mb-20 px-6">
+                    <h2 class="text-4xl md:text-7xl font-extrabold text-brand-dark mb-4">Unlock Their Potential: <span
+                            class="gradient-text">Skills For Life</span></h2>
+                    <p class="text-lg text-gray-700">Our program is designed to build a strong foundation that branches
+                        out into essential, real-world capabilities.</p>
+                </div>
+                <div class="relative max-w-6xl mx-auto px-6">
+                    <div
+                        class="hidden md:block absolute top-1/2 left-1/2 w-px h-full -translate-x-1/2 -translate-y-1/2">
+                        <div
+                            class="absolute top-1/2 left-1/2 w-[55%] h-px bg-gray-300 -translate-x-1/2 -translate-y-1/2">
+                        </div>
+                        <div
+                            class="absolute top-1/2 left-1/2 w-px h-[60%] bg-gray-300 -translate-x-1/2 -translate-y-1/2">
+                        </div>
+                    </div>
+                    <div class="relative flex flex-col md:grid md:grid-cols-3 gap-y-12 gap-x-8">
+                        <div class="md:space-y-12 flex flex-col md:justify-around gap-y-12">
+                            <div class="reveal text-center md:text-right">
+                                <div
+                                    class="inline-flex items-center justify-center w-14 h-14 bg-brand-green/10 text-brand-green rounded-2xl mb-4 ml-auto">
+                                    <i class="uil uil-piggy-bank text-3xl"></i>
+                                </div>
+                                <h3 class="text-2xl font-bold text-brand-dark">Smart Habits</h3>
+                                <p class="text-gray-600">Cultivating discipline in saving and spending.</p>
+                            </div>
+                            <div class="reveal text-center md:text-right">
+                                <div
+                                    class="inline-flex items-center justify-center w-14 h-14 bg-brand-green/10 text-brand-green rounded-2xl mb-4 ml-auto">
+                                    <i class="uil uil-calculator-alt text-3xl"></i>
+                                </div>
+                                <h3 class="text-2xl font-bold text-brand-dark">Numeracy in Action</h3>
+                                <p class="text-gray-600">Applying math to real-life financial problems.</p>
+                            </div>
+                        </div>
+                        <div class="reveal order-first md:order-none flex items-center justify-center">
+                            <div
+                                class="text-center p-8 bg-white border-2 border-brand-blue rounded-3xl shadow-2xl w-full md:w-auto">
+                                <div
+                                    class="inline-flex items-center justify-center w-20 h-20 bg-brand-blue/10 text-brand-blue rounded-2xl mb-6">
+                                    <i class="uil uil-university text-5xl"></i>
+                                </div>
+                                <h3 class="text-3xl font-extrabold text-brand-dark">Financial Foundations</h3>
+                                <p class="text-gray-600 mt-2">The core of all financial knowledge.</p>
+                            </div>
+                        </div>
+                        <div class="md:space-y-12 flex flex-col md:justify-around gap-y-12">
+                            <div class="reveal text-center md:text-left">
+                                <div
+                                    class="inline-flex items-center justify-center w-14 h-14 bg-brand-purple/10 text-brand-purple rounded-2xl mb-4 mr-auto">
+                                    <i class="uil uil-lightbulb-alt text-3xl"></i>
+                                </div>
+                                <h3 class="text-2xl font-bold text-brand-dark">Critical Thinking</h3>
+                                <p class="text-gray-600">Making informed and logical money decisions.</p>
+                            </div>
+                            <div class="reveal text-center md:text-left">
+                                <div
+                                    class="inline-flex items-center justify-center w-14 h-14 bg-brand-purple/10 text-brand-purple rounded-2xl mb-4 mr-auto">
+                                    <i class="uil uil-rocket text-3xl"></i>
+                                </div>
+                                <h3 class="text-2xl font-bold text-brand-dark">Entrepreneurial Mindset</h3>
+                                <p class="text-gray-600">Identifying opportunities and managing risk.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="stats" class="nav-section py-16 md:py-24">
+                <div class="text-center reveal max-w-3xl mx-auto px-6">
+                    <h2 class="text-4xl md:text-7xl font-extrabold text-brand-dark mb-6"><span class="gradient-text">The
+                            State of</span> <span class="text-brand-blue">Finance</span> <span
+                            class="gradient-text">in</span> <span class="text-brand-yellow">India.</span></h2>
+                    <p class="text-lg text-gray-700">
+                        Financial literacy varies across the nation. Our goal is to elevate these numbers, one student
+                        at a time.
+                    </p>
+                </div>
+                <div class="mt-16 reveal">
+                    <div class="max-w-6xl mx-auto px-4 md:px-6">
+                        <div
+                            class="flex overflow-x-auto space-x-6 pb-4 md:grid md:grid-cols-5 md:gap-8 md:space-x-0 mobile-scrollbar-hidden">
+                            <div
+                                class="flex-shrink-0 w-2/3 md:w-auto bg-white border border-gray-200 p-8 rounded-3xl shadow-lg text-center card-lift">
+                                <p class="counter text-5xl md:text-6xl font-extrabold text-brand-red" data-target="36">
+                                    0%</p>
+                                <h3 class="text-xl font-bold text-brand-dark mt-2">Kerala</h3>
+                            </div>
+                            <div
+                                class="flex-shrink-0 w-2/3 md:w-auto bg-white border border-gray-200 p-8 rounded-3xl shadow-lg text-center card-lift">
+                                <p class="counter text-5xl md:text-6xl font-extrabold text-brand-green"
+                                    data-target="50">0%</p>
+                                <h3 class="text-xl font-bold text-brand-dark mt-2">Goa</h3>
+                            </div>
+                            <div
+                                class="flex-shrink-0 w-2/3 md:w-auto bg-white border border-gray-200 p-8 rounded-3xl shadow-lg text-center card-lift">
+                                <p class="counter text-5xl md:text-6xl font-extrabold text-brand-red" data-target="17">
+                                    0%</p>
+                                <h3 class="text-xl font-bold text-brand-dark mt-2">Maharashtra</h3>
+                            </div>
+                            <div
+                                class="flex-shrink-0 w-2/3 md:w-auto bg-white border border-gray-200 p-8 rounded-3xl shadow-lg text-center card-lift">
+                                <p class="counter text-5xl md:text-6xl font-extrabold text-brand-red" data-target="22">
+                                    0%</p>
+                                <h3 class="text-xl font-bold text-brand-dark mt-2">Tamil Nadu</h3>
+                            </div>
+                            <div
+                                class="flex-shrink-0 w-2/3 md:w-auto bg-brand-yellow p-8 rounded-3xl shadow-lg text-center card-lift">
+                                <p class="counter text-5xl md:text-6xl font-extrabold text-brand-dark" data-target="35">
+                                    0%</p>
+                                <h3 class="text-xl font-bold text-brand-dark mt-2">India Average</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="journey" class="nav-section py-16 md:py-24 overflow-hidden">
+                <div class="text-center max-w-3xl mx-auto mb-16 md:mb-24 reveal px-4">
+                    <h2 class="text-4xl md:text-7xl font-extrabold text-brand-dark mb-6"><span
+                            class="text-brand-blue">The</span> <span class="text-brand-yellow">Journey.</span></h2>
+                    <p class="text-lg text-gray-700">
+                        Follow Mr. & Mrs. <span class="text-brand-blue">Pocket</span><span
+                            class="text-brand-yellow">Ed</span> as they navigate the five core modules of our program,
+                        milestone by milestone.
+                    </p>
+                </div>
+                <div id="journey-roadmap-desktop" class="max-w-6xl mx-auto hidden md:block">
+                    <div class="roadmap-path-container">
+                        <svg viewBox="0 0 100 100" preserveAspectRatio="none">
+                            <path d="M 50 0 C 100 20, 0 40, 50 60 C 100 80, 0 100, 50 100" stroke-width="2"
+                                fill="transparent" class="text-gray-300" stroke="currentColor" />
+                            <circle cx="75" cy="25" r="2" fill="currentColor" class="text-brand-yellow" />
+                            <circle cx="25" cy="50" r="2" fill="currentColor" class="text-brand-yellow" />
+                            <circle cx="75" cy="78" r="2" fill="currentColor" class="text-brand-yellow" />
+                        </svg>
+                    </div>
+                    <div class="roadmap-item right reveal">
+                        <div class="roadmap-content">
+                            <div class="journey-main-content grid md:grid-cols-2 gap-8 items-center">
+                                <div class="text-left">
+                                    <p class="text-brand-blue font-bold text-lg mb-2">MODULE 1</p>
+                                    <h3 class="text-3xl font-extrabold text-brand-dark mb-3 gradient-text">Money: More
+                                        Than Coins</h3>
+                                    <p class="text-gray-700 text-base">Mr. PocketEd discovers money is not just cash. He
+                                        learns where it comes from, its forms, and how it powers the world.</p>
+                                </div>
+                                <div class="flex justify-center">
+                                    <div
+                                        class="w-48 h-48 rounded-full bg-brand-blue flex items-center justify-center shadow-xl overflow-hidden">
+                                        <img src="images/gemini%20generated%20image%202.webp"
+                                            class="journey-image"
+                                            alt="Illustration for Money: More Than Coins" loading="lazy" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="journey-details">
+                                <h4 class="font-bold text-lg mt-6 mb-2 text-brand-dark">Key Topics Covered:</h4>
+                                <ul class="list-disc list-inside text-gray-600 space-y-1">
+                                    <li>History of money & the barter system</li>
+                                    <li>Understanding currency notes and coins</li>
+                                    <li>Digital money: Cards, UPI, and wallets</li>
+                                </ul>
+                            </div>
+                            <button class="expand-journey-btn">
+                                <i class="uil uil-plus-circle text-2xl"></i>
+                            </button>
+                        </div>
+                        <div class="connector-line"></div>
+                        <div class="milestone-marker bg-brand-blue shadow-brand-blue/50">1</div>
+                    </div>
+                    <div class="roadmap-item left reveal">
+                        <div class="roadmap-content">
+                            <div class="journey-main-content grid md:grid-cols-2 gap-8 items-center">
+                                <div class="flex justify-center order-last md:order-first">
+                                    <div
+                                        class="w-48 h-48 rounded-full bg-brand-purple flex items-center justify-center shadow-xl">
+                                        <img src="https://i.postimg.cc/gkz6b8N2/Gemini-Generated-Image-phlubfphlubfphlu.png"
+                                            class="journey-image" alt="Character Mrs. PocketEd" loading="lazy" />
+                                    </div>
+                                </div>
+                                <div class="text-left">
+                                    <p class="text-brand-purple font-bold text-lg mb-2">MODULE 2</p>
+                                    <h3 class="text-3xl font-extrabold text-brand-dark mb-3 gradient-text">Piggy Bank to
+                                        Power Bank</h3>
+                                    <p class="text-gray-700 text-base">Mrs. PocketEd opens her first digital wallet,
+                                        explores saving habits, and moves to smart saving apps.</p>
+                                </div>
+                            </div>
+                            <div class="journey-details">
+                                <h4 class="font-bold text-lg mt-6 mb-2 text-brand-dark">Key Topics Covered:</h4>
+                                <ul class="list-disc list-inside text-gray-600 space-y-1">
+                                    <li>The power of saving early</li>
+                                    <li>Different types of bank accounts</li>
+                                    <li>Introduction to saving apps and tools</li>
+                                </ul>
+                            </div>
+                            <button class="expand-journey-btn">
+                                <i class="uil uil-plus-circle text-2xl"></i>
+                            </button>
+                        </div>
+                        <div class="connector-line"></div>
+                        <div class="milestone-marker bg-brand-purple shadow-brand-purple/50">2</div>
+                    </div>
+                    <div class="roadmap-item right reveal">
+                        <div class="roadmap-content">
+                            <div class="journey-main-content grid md:grid-cols-2 gap-8 items-center">
+                                <div class="text-left">
+                                    <p class="text-brand-yellow font-bold text-lg mb-2">MODULE 3</p>
+                                    <h3 class="text-3xl font-extrabold text-brand-dark mb-3 gradient-text">The Magic of
+                                        Small Steps</h3>
+                                    <p class="text-gray-700 text-base">They start a 7-day budgeting challenge, planning
+                                        their snacks, school expenses, and Diwali gifting!</p>
+                                </div>
+                                <div class="flex justify-center">
+                                    <div
+                                        class="w-48 h-48 rounded-full bg-brand-yellow flex items-center justify-center relative shadow-xl">
+                                        <img src="https://i.postimg.cc/CKY3cMwX/Gemini-Generated-Image-qcyn7rqcyn7rqcyn.png"
+                                            class="journey-image" alt="Character Mr. PocketEd"
+                                            loading="lazy" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="journey-details">
+                                <h4 class="font-bold text-lg mt-6 mb-2 text-brand-dark">Key Topics Covered:</h4>
+                                <ul class="list-disc list-inside text-gray-600 space-y-1">
+                                    <li>Creating a personal budget</li>
+                                    <li>Tracking income and expenses</li>
+                                    <li>Setting and achieving financial goals</li>
+                                </ul>
+                            </div>
+                            <button class="expand-journey-btn">
+                                <i class="uil uil-plus-circle text-2xl"></i>
+                            </button>
+                        </div>
+                        <div class="connector-line"></div>
+                        <div class="milestone-marker bg-brand-yellow shadow-brand-yellow/50 text-brand-dark">3</div>
+                    </div>
+                    <div class="roadmap-item left reveal">
+                        <div class="roadmap-content">
+                            <div class="journey-main-content grid md:grid-cols-2 gap-8 items-center">
+                                <div class="flex justify-center order-last md:order-first">
+                                    <div
+                                        class="w-48 h-48 rounded-3xl bg-brand-dark flex items-center justify-center p-4 shadow-xl overflow-hidden">
+                                        <img src="images/gemini%20generated%20image%201.webp"
+                                            class="journey-image"
+                                            alt="Illustration for The Money Parking Lot" loading="lazy" />
+                                    </div>
+                                </div>
+                                <div class="text-left">
+                                    <p class="text-brand-dark font-bold text-lg mb-2">MODULE 4</p>
+                                    <h3 class="text-3xl font-extrabold text-brand-dark mb-3 gradient-text">The Money
+                                        Parking Lot</h3>
+                                    <p class="text-gray-700 text-base">Mr. PocketEd learns about savings accounts, UPI,
+                                        ATMs, and online banking safety.</p>
+                                </div>
+                            </div>
+                            <div class="journey-details">
+                                <h4 class="font-bold text-lg mt-6 mb-2 text-brand-dark">Key Topics Covered:</h4>
+                                <ul class="list-disc list-inside text-gray-600 space-y-1">
+                                    <li>How banks work</li>
+                                    <li>Staying safe from online scams</li>
+                                    <li>The role of the RBI</li>
+                                </ul>
+                            </div>
+                            <button class="expand-journey-btn">
+                                <i class="uil uil-plus-circle text-2xl"></i>
+                            </button>
+                        </div>
+                        <div class="connector-line"></div>
+                        <div class="milestone-marker bg-brand-dark shadow-brand-dark/50">4</div>
+                    </div>
+                    <div class="roadmap-item right reveal">
+                        <div class="roadmap-content">
+                            <div class="journey-main-content grid md:grid-cols-2 gap-8 items-center">
+                                <div class="text-left">
+                                    <p class="text-brand-pink font-bold text-lg mb-2">MODULE 5</p>
+                                    <h3 class="text-3xl font-extrabold text-brand-dark mb-3 gradient-text">Marketplace:
+                                        The Kurukshetra</h3>
+                                    <p class="text-gray-700 text-base">Mrs. PocketEd enters the market with ₹100,
+                                        comparing needs vs. wants to understand true value.</p>
+                                </div>
+                                <div class="flex justify-center">
+                                    <div
+                                        class="w-48 h-48 rounded-3xl bg-brand-pink flex items-center justify-center p-4 shadow-xl">
+                                        <img src="https://i.postimg.cc/PqVkNsk7/Gemini-Generated-Image-k3dy6wk3dy6wk3dy.png"
+                                            class="journey-image"
+                                            alt="Illustration of Mrs. PocketEd choosing between needs and wants"
+                                            loading="lazy" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="journey-details">
+                                <h4 class="font-bold text-lg mt-6 mb-2 text-brand-dark">Key Topics Covered:</h4>
+                                <ul class="list-disc list-inside text-gray-600 space-y-1">
+                                    <li>Needs vs. Wants</li>
+                                    <li>Smart shopping and consumer rights</li>
+                                    <li>Introduction to investing concepts</li>
+                                </ul>
+                            </div>
+                            <button class="expand-journey-btn">
+                                <i class="uil uil-plus-circle text-2xl"></i>
+                            </button>
+                        </div>
+                        <div class="connector-line"></div>
+                        <div class="milestone-marker bg-brand-pink shadow-brand-pink/50">5</div>
+                    </div>
+                </div>
+                <div id="journey-carousel-mobile" class="md:hidden">
+                    <div class="journey-carousel-container">
+                        <div class="journey-carousel-slide">
+                            <div class="journey-card border-t-brand-blue">
+                                <p class="font-bold text-brand-blue mb-2">MODULE 01</p>
+                                <h3 class="text-2xl font-extrabold mb-4 gradient-text">Money: More Than Coins</h3>
+                                <p class="text-gray-600">Mr. <span class="text-brand-blue">Pocket</span><span
+                                        class="text-brand-yellow">Ed</span> discovers money is not just cash. He learns
+                                    where it comes from, its forms, and how it powers the world.</p>
+                            </div>
+                        </div>
+                        <div class="journey-carousel-slide">
+                            <div class="journey-card border-t-brand-purple">
+                                <p class="font-bold text-brand-purple mb-2">MODULE 02</p>
+                                <h3 class="text-2xl font-extrabold mb-4 gradient-text">Piggy Bank to Power Bank</h3>
+                                <p class="text-gray-600">Mrs. <span class="text-brand-blue">Pocket</span><span
+                                        class="text-brand-yellow">Ed</span> opens her first digital wallet, explores
+                                    saving habits, and moves to smart saving apps.</p>
+                            </div>
+                        </div>
+                        <div class="journey-carousel-slide">
+                            <div class="journey-card border-t-brand-yellow">
+                                <p class="font-bold text-yellow-500 mb-2">MODULE 03</p>
+                                <h3 class="text-2xl font-extrabold mb-4 gradient-text">The Magic of Small Steps</h3>
+                                <p class="text-gray-600">Students start a 7-day budgeting challenge, learning to plan
+                                    for daily expenses like snacks, school supplies, and even festive gifting for
+                                    Diwali!</p>
+                            </div>
+                        </div>
+                        <div class="journey-carousel-slide">
+                            <div class="journey-card border-t-brand-dark">
+                                <p class="font-bold text-brand-dark mb-2">MODULE 04</p>
+                                <h3 class="text-2xl font-extrabold mb-4 gradient-text">The Money Parking Lot</h3>
+                                <p class="text-gray-600">Learn the essentials of the banking ecosystem, including
+                                    savings accounts, UPI payments, ATM usage, and crucial online banking safety
+                                    protocols.</p>
+                            </div>
+                        </div>
+                        <div class="journey-carousel-slide">
+                            <div class="journey-card border-t-brand-pink">
+                                <p class="font-bold text-brand-pink mb-2">MODULE 05</p>
+                                <h3 class="text-2xl font-extrabold mb-4 gradient-text">Marketplace: The Kurukshetra</h3>
+                                <p class="text-gray-600">Mrs. <span class="text-brand-blue">Pocket</span><span
+                                        class="text-brand-yellow">Ed</span> enters a simulated market with a budget of
+                                    ₹100, learning to navigate consumer choices by comparing needs versus wants to
+                                    understand true value.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="journey-dots" class="flex justify-center items-center gap-2 mt-6"></div>
+                </div>
+            </section>
+
+            <section id="testimonials" class="nav-section py-16 md:py-24 overflow-hidden bg-gray-50/70">
+                <div class="text-center reveal max-w-3xl mx-auto px-6">
+                    <h2 class="text-4xl md:text-7xl font-extrabold text-brand-dark mb-6">Words from Our <span
+                            class="text-brand-blue">Community.</span></h2>
+                    <p class="text-lg text-gray-700">
+                        See what parents and students are saying about their <span
+                            class="text-brand-blue">Pocket</span><span class="text-brand-yellow">Ed</span> experience.
+                    </p>
+                </div>
+                <div class="mt-20 relative">
+                    <div id="testimonial-carousel"
+                        class="flex overflow-x-auto snap-x snap-mandatory no-scrollbar scroll-smooth -mx-4 px-4">
+                        <div class="snap-center shrink-0 w-full md:w-[45%] lg:w-1/3 p-4">
+                            <div class="bg-white rounded-2xl shadow-lg w-full card-lift overflow-hidden">
+                                <div
+                                    class="aspect-w-16 bg-brand-dark rounded-t-2xl flex items-center justify-center relative">
+                                    <img src="https://i.ytimg.com/vi/w-t3_j9g9mY/maxresdefault.jpg"
+                                        class="thumbnail absolute w-full h-full object-cover transition-opacity duration-300"
+                                        alt="Thumbnail of Parent Testimonial" loading="lazy" />
+                                    <button
+                                        class="play-button w-14 h-14 bg-brand-yellow/80 backdrop-blur-sm rounded-full flex items-center justify-center text-brand-dark z-10 transition-opacity"
+                                        data-video-id="w-t3_j9g9mY">
+                                        <svg class="w-6 h-6 ml-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                            <path
+                                                d="M4.018 15.59a.75.75 0 001.134.623l10.5-6.002a.75.75 0 000-1.246l-10.5-6.001a.75.75 0 00-1.134.623v12.002z">
+                                            </path>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="p-4">
+                                    <p class="text-sm text-gray-600">"<span class="text-brand-blue">Pocket</span><span
+                                            class="text-brand-yellow">Ed</span> transformed how my daughter thinks about
+                                        money. It's an essential life skill, taught beautifully."</p>
+                                    <h3 class="text-lg font-bold mt-3">Priya S.</h3>
+                                    <p class="text-sm text-gray-500">Parent</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="snap-center shrink-0 w-full md:w-[45%] lg:w-1/3 p-4">
+                            <div class="bg-white rounded-2xl shadow-lg w-full card-lift overflow-hidden">
+                                <div
+                                    class="aspect-w-16 bg-brand-dark rounded-t-2xl flex items-center justify-center relative">
+                                    <img src="https://i.ytimg.com/vi/gmjg9u0yigM/maxresdefault.jpg"
+                                        class="thumbnail absolute w-full h-full object-cover transition-opacity duration-300"
+                                        alt="Thumbnail of Teacher Testimonial" loading="lazy" />
+                                    <button
+                                        class="play-button w-14 h-14 bg-brand-yellow/80 backdrop-blur-sm rounded-full flex items-center justify-center text-brand-dark z-10 transition-opacity"
+                                        data-video-id="gmjg9u0yigM">
+                                        <svg class="w-6 h-6 ml-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                            <path
+                                                d="M4.018 15.59a.75.75 0 001.134.623l10.5-6.002a.75.75 0 000-1.246l-10.5-6.001a.75.75 0 00-1.134.623v12.002z">
+                                            </path>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="p-4">
+                                    <p class="text-sm text-gray-600">"This is the future of practical education. A
+                                        fantastic tool for educators to bring real-world skills into the classroom."</p>
+                                    <h3 class="text-lg font-bold mt-3">Mr. Verma</h3>
+                                    <p class="text-sm text-gray-500">Teacher</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="snap-center shrink-0 w-full md:w-[45%] lg:w-1/3 p-4">
+                            <div class="bg-white rounded-2xl shadow-lg w-full card-lift overflow-hidden">
+                                <div
+                                    class="aspect-w-16 bg-brand-dark rounded-t-2xl flex items-center justify-center relative">
+                                    <img src="https://i.ytimg.com/vi/SasttcsYq_w/maxresdefault.jpg"
+                                        class="thumbnail absolute w-full h-full object-cover transition-opacity duration-300"
+                                        alt="Thumbnail of Student Testimonial" loading="lazy" />
+                                    <button
+                                        class="play-button w-14 h-14 bg-brand-yellow/80 backdrop-blur-sm rounded-full flex items-center justify-center text-brand-dark z-10 transition-opacity"
+                                        data-video-id="SasttcsYq_w">
+                                        <svg class="w-6 h-6 ml-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                            <path
+                                                d="M4.018 15.59a.75.75 0 001.134.623l10.5-6.002a.75.75 0 000-1.246l-10.5-6.001a.75.75 0 00-1.134.623v12.002z">
+                                            </path>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="p-4">
+                                    <p class="text-sm text-gray-600">"The investing module was my favorite. I finally
+                                        understand what stocks are and it doesn't seem so scary anymore!"</p>
+                                    <h3 class="text-lg font-bold mt-3">Rohan M.</h3>
+                                    <p class="text-sm text-gray-500">Student</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex justify-center gap-4 mt-8">
+                        <button id="prev-btn"
+                            class="w-14 h-14 bg-white rounded-full shadow-md flex items-center justify-center text-brand-dark hover:bg-gray-200 transition">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M15 19l-7-7 7-7"></path>
+                            </svg>
+                        </button>
+                        <button id="next-btn"
+                            class="w-14 h-14 bg-white rounded-full shadow-md flex items-center justify-center text-brand-dark hover:bg-gray-200 transition">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7">
+                                </path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <section id="faq" class="nav-section py-16 md:py-24">
+                <div class="text-center reveal max-w-3xl mx-auto px-6">
+                    <h2 class="text-4xl md:text-7xl font-extrabold text-brand-dark mb-6">Frequently Asked <span
+                            class="gradient-text">Questions</span></h2>
+                    <p class="text-lg text-gray-700">
+                        Have questions? We've got answers. Here are some of the most common queries we receive about the
+                        <span class="text-brand-blue">Pocket</span><span class="text-brand-yellow">Ed</span> program.
+                    </p>
+                </div>
+                <div id="faq-container" class="mt-16 max-w-3xl mx-auto space-y-4 px-6">
+                    <div class="faq-item bg-white border border-gray-200 rounded-xl shadow-sm overflow-hidden">
+                        <div class="faq-question flex justify-between items-center p-5 cursor-pointer">
+                            <h3 class="text-lg font-bold text-brand-dark">What is <span
+                                    class="text-brand-blue">Pocket</span><span class="text-brand-yellow">Ed</span>?</h3>
+                            <svg class="faq-icon w-6 h-6 text-brand-blue transition-transform duration-300" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </div>
+                        <div class="faq-answer">
+                            <p class="p-5 pt-0 text-gray-600"><span class="text-brand-blue">Pocket</span><span
+                                    class="text-brand-yellow">Ed</span> is a modern financial literacy platform designed
+                                to equip students with essential money skills through engaging, activity-based learning
+                                modules.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item bg-white border border-gray-200 rounded-xl shadow-sm overflow-hidden">
+                        <div class="faq-question flex justify-between items-center p-5 cursor-pointer">
+                            <h3 class="text-lg font-bold text-brand-dark">Who is <span
+                                    class="text-brand-blue">Pocket</span><span class="text-brand-yellow">Ed</span>
+                                designed for?</h3>
+                            <svg class="faq-icon w-6 h-6 text-brand-blue transition-transform duration-300" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </div>
+                        <div class="faq-answer">
+                            <p class="p-5 pt-0 text-gray-600"><span class="text-brand-blue">Pocket</span><span
+                                    class="text-brand-yellow">Ed</span> is created for school students, primarily in
+                                middle and high school, to build financial awareness early and confidently manage their
+                                money in the future.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item bg-white border border-gray-200 rounded-xl shadow-sm overflow-hidden">
+                        <div class="faq-question flex justify-between items-center p-5 cursor-pointer">
+                            <h3 class="text-lg font-bold text-brand-dark">Why is financial literacy important for
+                                students?</h3>
+                            <svg class="faq-icon w-6 h-6 text-brand-blue transition-transform duration-300" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </div>
+                        <div class="faq-answer">
+                            <p class="p-5 pt-0 text-gray-600">Financial literacy helps students make smart money
+                                decisions, form healthy saving habits, and prepare for real-life challenges from a young
+                                age.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item bg-white border border-gray-200 rounded-xl shadow-sm overflow-hidden">
+                        <div class="faq-question flex justify-between items-center p-5 cursor-pointer">
+                            <h3 class="text-lg font-bold text-brand-dark">What topics are covered in <span
+                                    class="text-brand-blue">Pocket</span><span class="text-brand-yellow">Ed</span>
+                                courses?</h3>
+                            <svg class="faq-icon w-6 h-6 text-brand-blue transition-transform duration-300" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </div>
+                        <div class="faq-answer">
+                            <p class="p-5 pt-0 text-gray-600">Our courses cover savings, budgeting, investing, banking,
+                                and understanding markets — all through storytelling and relatable examples.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item bg-white border border-gray-200 rounded-xl shadow-sm overflow-hidden">
+                        <div class="faq-question flex justify-between items-center p-5 cursor-pointer">
+                            <h3 class="text-lg font-bold text-brand-dark">How long is the <span
+                                    class="text-brand-blue">Pocket</span><span class="text-brand-yellow">Ed</span>
+                                program?</h3>
+                            <svg class="faq-icon w-6 h-6 text-brand-blue transition-transform duration-300" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </div>
+                        <div class="faq-answer">
+                            <p class="p-5 pt-0 text-gray-600">The program runs for 4 to 8 weeks, depending on the
+                                school's schedule, with one engaging session per week.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item bg-white border border-gray-200 rounded-xl shadow-sm overflow-hidden">
+                        <div class="faq-question flex justify-between items-center p-5 cursor-pointer">
+                            <h3 class="text-lg font-bold text-brand-dark">Are the courses aligned with school
+                                curriculums?</h3>
+                            <svg class="faq-icon w-6 h-6 text-brand-blue transition-transform duration-300" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </div>
+                        <div class="faq-answer">
+                            <p class="p-5 pt-0 text-gray-600">Yes, our modules are designed to complement school
+                                learning and support national education goals focused on life skills and financial
+                                well-being.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item bg-white border border-gray-200 rounded-xl shadow-sm overflow-hidden">
+                        <div class="faq-question flex justify-between items-center p-5 cursor-pointer">
+                            <h3 class="text-lg font-bold text-brand-dark">How can schools or parents enroll students in
+                                <span class="text-brand-blue">Pocket</span><span class="text-brand-yellow">Ed</span>?
+                            </h3>
+                            <svg class="faq-icon w-6 h-6 text-brand-blue transition-transform duration-300" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </div>
+                        <div class="faq-answer">
+                            <p class="p-5 pt-0 text-gray-600">Schools or parents can get in touch with us through our
+                                website or email to start the quick and easy enrollment process.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item bg-white border border-gray-200 rounded-xl shadow-sm overflow-hidden">
+                        <div class="faq-question flex justify-between items-center p-5 cursor-pointer">
+                            <h3 class="text-lg font-bold text-brand-dark">What are the benefits of introducing <span
+                                    class="text-brand-blue">Pocket</span><span class="text-brand-yellow">Ed</span> in
+                                schools?</h3>
+                            <svg class="faq-icon w-6 h-6 text-brand-blue transition-transform duration-300" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </div>
+                        <div class="faq-answer">
+                            <p class="p-5 pt-0 text-gray-600">Schools gain a future-ready curriculum, students become
+                                financially responsible, and parents get peace of mind knowing their children are
+                                learning real-life skills.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item bg-white border border-gray-200 rounded-xl shadow-sm overflow-hidden">
+                        <div class="faq-question flex justify-between items-center p-5 cursor-pointer">
+                            <h3 class="text-lg font-bold text-brand-dark">How is <span
+                                    class="text-brand-blue">Pocket</span><span class="text-brand-yellow">Ed</span>
+                                different from other programs?</h3>
+                            <svg class="faq-icon w-6 h-6 text-brand-blue transition-transform duration-300" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </div>
+                        <div class="faq-answer">
+                            <p class="p-5 pt-0 text-gray-600">We blend storytelling, characters, and real-world
+                                activities to make learning about money fun, practical, and easy to grasp for all
+                                students.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item bg-white border border-gray-200 rounded-xl shadow-sm overflow-hidden">
+                        <div class="faq-question flex justify-between items-center p-5 cursor-pointer">
+                            <h3 class="text-lg font-bold text-brand-dark">How does <span
+                                    class="text-brand-blue">Pocket</span><span class="text-brand-yellow">Ed</span> work
+                                with schools?</h3>
+                            <svg class="faq-icon w-6 h-6 text-brand-blue transition-transform duration-300" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </div>
+                        <div class="faq-answer">
+                            <p class="p-5 pt-0 text-gray-600">We partner with schools to offer on-campus or online
+                                sessions, provide teacher support, and customize the experience based on student needs.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="enroll" class=" pb-5 nav-section scroll-section">
+                <div class="max-w-2xl mx-auto w-full reveal">
+                    <div id="enrollment-container">
+                        <div class="text-center mb-12">
+                            <h2 class="text-4xl md:text-7xl font-extrabold text-brand-dark mb-6">Join the <span
+                                    class="text-brand-blue">Pocket</span><span class="text-brand-yellow">Ed</span>
+                                Revolution</h2>
+                            <p class="text-lg text-gray-700">
+                                Take the first step towards financial wisdom. Fill out the form below to get started.
+                            </p>
+                        </div>
+                        <form id="enrollment-form" action="https://formspree.io/f/mblyokkk" method="POST"
+                            class="w-full bg-white p-8 rounded-2xl shadow-lg border">
+                            <div class="mb-6">
+                                <label class="font-bold text-lg mb-2 block">I am a...</label>
+                                <div class="flex flex-wrap gap-4" id="role-selector">
+                                    <button type="button" data-role="student"
+                                        class="role-btn bg-brand-blue text-white px-6 py-3 rounded-full font-bold transition-transform hover:scale-105">Student</button>
+                                    <button type="button" data-role="parent"
+                                        class="role-btn bg-gray-200 text-gray-800 px-6 py-3 rounded-full font-bold transition-transform hover:scale-105">Parent</button>
+                                    <button type="button" data-role="school"
+                                        class="role-btn bg-gray-200 text-gray-800 px-6 py-3 rounded-full font-bold transition-transform hover:scale-105">School</button>
+                                </div>
+                            </div>
+                            <div id="form-fields"></div>
+                            <input type="hidden" id="recaptcha-token" name="recaptcha-token">
+                            <button type="submit"
+                                class="w-full mt-6 bg-brand-yellow text-brand-dark font-extrabold text-xl py-4 rounded-xl shadow-md hover:bg-yellow-300 transition-all transform hover:scale-105">Submit
+                                Inquiry</button>
+                        </form>
+                        <br>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+        <div id="courses-page" class="page-section nav-section bg-gray-50/70">
+            <div class="container mx-auto px-6 py-16 md:py-24">
+                <header class="pt-16 md:pt-24 text-center max-w-4xl mx-auto mb-16">
+                    <h2 class="text-4xl md:text-7xl font-extrabold text-brand-dark mb-6">
+                        Our <span class="text-brand-blue">Core</span> <span class="text-brand-yellow">Curriculum</span>
+                    </h2>
+                    <p class="text-lg text-gray-700">
+                        Our five modules are systematically designed to build a strong financial foundation, taking
+                        students from basic concepts to real-world application.
+                    </p>
+                </header>
+
+                <div class="space-y-12">
+                    <div class="reveal bg-white p-8 rounded-3xl shadow-lg border-l-8 border-brand-blue card-lift">
+                        <p class="font-bold text-brand-blue mb-2">MODULE 01</p>
+                        <h3 class="text-3xl font-extrabold mb-4 gradient-text">Money: More Than Coins</h3>
+                        <p class="text-gray-600 leading-relaxed mb-6">Mr. PocketEd discovers money is not just cash. He
+                            learns where it comes from, its various forms, and how it powers the world around us.</p>
+                        <h4 class="font-bold text-xl text-brand-dark mb-3">Key Learnings:</h4>
+                        <ul class="list-disc list-inside text-gray-700 space-y-2">
+                            <li>The origin of money and the evolution from the barter system.</li>
+                            <li>Identifying and understanding Indian currency notes and coins.</li>
+                            <li>Introduction to the digital economy: UPI, mobile wallets, and cards.</li>
+                        </ul>
+                    </div>
+                    <div class="reveal bg-white p-8 rounded-3xl shadow-lg border-l-8 border-brand-purple card-lift">
+                        <p class="font-bold text-brand-purple mb-2">MODULE 02</p>
+                        <h3 class="text-3xl font-extrabold mb-4 gradient-text">Piggy Bank to Power Bank</h3>
+                        <p class="text-gray-600 leading-relaxed mb-6">Mrs. PocketEd opens her first digital wallet,
+                            explores the power of smart saving habits, and transitions from traditional saving to modern
+                            digital apps.</p>
+                        <h4 class="font-bold text-xl text-brand-dark mb-3">Key Learnings:</h4>
+                        <ul class="list-disc list-inside text-gray-700 space-y-2">
+                            <li>The magic of compound interest and saving early.</li>
+                            <li>Exploring different types of bank accounts for students.</li>
+                            <li>Practical guide to using India's top saving and payment apps.</li>
+                        </ul>
+                    </div>
+                    <div class="reveal bg-white p-8 rounded-3xl shadow-lg border-l-8 border-brand-yellow card-lift">
+                        <p class="font-bold text-yellow-500 mb-2">MODULE 03</p>
+                        <h3 class="text-3xl font-extrabold mb-4 gradient-text">The Magic of Small Steps</h3>
+                        <p class="text-gray-600 leading-relaxed mb-6">Students start a 7-day budgeting challenge,
+                            learning to plan for daily expenses like snacks, school supplies, and even festive gifting
+                            for Diwali!</p>
+                        <h4 class="font-bold text-xl text-brand-dark mb-3">Key Learnings:</h4>
+                        <ul class="list-disc list-inside text-gray-700 space-y-2">
+                            <li>The 50/30/20 rule adapted for student life.</li>
+                            <li>How to track daily income (pocket money) and expenses.</li>
+                            <li>Setting and achieving short-term financial goals (e.g., buying a new book).</li>
+                        </ul>
+                    </div>
+                    <div class="reveal bg-white p-8 rounded-3xl shadow-lg border-l-8 border-brand-dark card-lift">
+                        <p class="font-bold text-brand-dark mb-2">MODULE 04</p>
+                        <h3 class="text-3xl font-extrabold mb-4 gradient-text">The Money Parking Lot</h3>
+                        <p class="text-gray-600 leading-relaxed mb-6">Learn the essentials of the banking ecosystem,
+                            including savings accounts, UPI payments, ATM usage, and crucial online banking safety
+                            protocols.</p>
+                        <h4 class="font-bold text-xl text-brand-dark mb-3">Key Learnings:</h4>
+                        <ul class="list-disc list-inside text-gray-700 space-y-2">
+                            <li>How banks in India operate and the role of the RBI.</li>
+                            <li>A practical guide to using an ATM and online banking portals safely.</li>
+                            <li>How to identify and protect yourself from common online scams and phishing attempts.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="reveal bg-white p-8 rounded-3xl shadow-lg border-l-8 border-brand-pink card-lift">
+                        <p class="font-bold text-brand-pink mb-2">MODULE 05</p>
+                        <h3 class="text-3xl font-extrabold mb-4 gradient-text">Marketplace: The Kurukshetra</h3>
+                        <p class="text-gray-600 leading-relaxed mb-6">Mrs. PocketEd enters a simulated market with a
+                            budget of ₹100, learning to navigate consumer choices by comparing needs versus wants to
+                            understand true value.</p>
+                        <h4 class="font-bold text-xl text-brand-dark mb-3">Key Learnings:</h4>
+                        <ul class="list-disc list-inside text-gray-700 space-y-2">
+                            <li>Distinguishing between essential needs and aspirational wants.</li>
+                            <li>Understanding basic consumer rights in India.</li>
+                            <li>A simple introduction to the concepts of stocks and mutual funds.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="text-center mt-20">
+                    <a href="#enroll"
+                        class="nav-link inline-block bg-brand-dark text-white font-bold text-lg py-4 px-12 rounded-xl hover:bg-gray-800 transition-all transform hover:scale-105 shadow-lg hover:shadow-xl">Enroll
+                        Now</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="blog-page" class="page-section nav-section bg-white">
+            <div class="container mx-auto px-6 py-16 md:py-24">
+                <header class="pt-16 md:pt-24 text-center max-w-4xl mx-auto mb-16">
+                    <h2 class="text-4xl md:text-7xl font-extrabold text-brand-dark mb-6">
+                        Latest <span class="text-brand-blue">Financial</span> <span
+                            class="text-brand-yellow">Insights</span>
+                    </h2>
+                    <p class="text-lg text-gray-700">
+                        Explore articles on budgeting, saving, and investing, written for the next generation of
+                        financial leaders.
+                    </p>
+                </header>
+                <div
+                    class="flex overflow-x-auto space-x-6 pb-4 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-8 md:space-x-0 mobile-scrollbar-hidden">
+                    <div
+                        class="flex-shrink-0 w-4/5 md:w-auto bg-gray-50/70 rounded-2xl shadow-lg overflow-hidden card-lift group">
+                        <img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?q=80&w=1470"
+                            alt="Person using a calculator"
+                            class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300"
+                            loading="lazy">
+                        <div class="p-6">
+                            <p class="text-brand-purple font-bold text-sm mb-2">BUDGETING</p>
+                            <h3 class="text-xl font-extrabold text-brand-dark mb-3">5 Simple Budgeting Tips for Students
+                            </h3>
+                            <p class="text-gray-600 text-sm mb-4">Learn how to manage your pocket money effectively with
+                                these easy-to-follow tips.</p>
+                            <a href="#" class="font-bold text-brand-blue hover:underline"
+                                aria-label="Read more about 5 Simple Budgeting Tips for Students">Read More →</a>
+                        </div>
+                    </div>
+                    <div
+                        class="flex-shrink-0 w-4/5 md:w-auto bg-gray-50/70 rounded-2xl shadow-lg overflow-hidden card-lift group">
+                        <img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=1470"
+                            alt="Stock market chart on a screen"
+                            class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300"
+                            loading="lazy">
+                        <div class="p-6">
+                            <p class="text-brand-green font-bold text-sm mb-2">INVESTING</p>
+                            <h3 class="text-xl font-extrabold text-brand-dark mb-3">Why It's Never Too Early to Start
+                                Investing</h3>
+                            <p class="text-gray-600 text-sm mb-4">Discover the power of compound interest and how
+                                starting early can secure your future.</p>
+                            <a href="#" class="font-bold text-brand-blue hover:underline"
+                                aria-label="Read more about Why It's Never Too Early to Start Investing">Read More →</a>
+                        </div>
+                    </div>
+                    <div
+                        class="flex-shrink-0 w-4/5 md:w-auto bg-gray-50/70 rounded-2xl shadow-lg overflow-hidden card-lift group">
+                        <img src="https://images.unsplash.com/photo-1639754503209-d569307739a2?q=80&w=1322"
+                            alt="Mobile phone showing a UPI payment app"
+                            class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300"
+                            loading="lazy">
+                        <div class="p-6">
+                            <p class="text-brand-pink font-bold text-sm mb-2">DIGITAL PAYMENTS</p>
+                            <h3 class="text-xl font-extrabold text-brand-dark mb-3">Staying Safe with UPI and Digital
+                                Wallets</h3>
+                            <p class="text-gray-600 text-sm mb-4">A guide to protecting yourself from common online
+                                scams in India's digital payment ecosystem.</p>
+                            <a href="#" class="font-bold text-brand-blue hover:underline"
+                                aria-label="Read more about Staying Safe with UPI and Digital Wallets">Read More →</a>
+                        </div>
+                    </div>
+                    <div
+                        class="flex-shrink-0 w-4/5 md:w-auto bg-gray-50/70 rounded-2xl shadow-lg overflow-hidden card-lift group">
+                        <img src="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?q=80&w=1470"
+                            alt="Chess pieces on a board"
+                            class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300"
+                            loading="lazy">
+                        <div class="p-6">
+                            <p class="text-brand-blue font-bold text-sm mb-2">STRATEGY</p>
+                            <h3 class="text-xl font-extrabold text-brand-dark mb-3">Needs vs. Wants: Mastering a Core
+                                Money Skill</h3>
+                            <p class="text-gray-600 text-sm mb-4">Understanding the difference is the first step towards
+                                financial discipline and success.</p>
+                            <a href="#" class="font-bold text-brand-blue hover:underline"
+                                aria-label="Read more about Needs vs. Wants">Read More →</a>
+                        </div>
+                    </div>
+                    <div
+                        class="flex-shrink-0 w-4/5 md:w-auto bg-gray-50/70 rounded-2xl shadow-lg overflow-hidden card-lift group">
+                        <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1470"
+                            alt="Person giving a presentation about growth"
+                            class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300"
+                            loading="lazy">
+                        <div class="p-6">
+                            <p class="text-brand-dark font-bold text-sm mb-2">CAREERS</p>
+                            <h3 class="text-xl font-extrabold text-brand-dark mb-3">Careers in Finance: More Than Just
+                                Banking</h3>
+                            <p class="text-gray-600 text-sm mb-4">Explore exciting career paths in the world of finance
+                                that go beyond traditional roles.</p>
+                            <a href="#" class="font-bold text-brand-blue hover:underline"
+                                aria-label="Read more about Careers in Finance">Read More →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="community-page" class="page-section nav-section bg-gray-50/70">
+            <div class="container mx-auto px-6 py-16 md:py-24">
+                <header class="pt-16 md:pt-24 text-center max-w-4xl mx-auto mb-16">
+                    <h2 class="text-4xl md:text-7xl font-extrabold text-brand-dark mb-6">
+                        Together, We <span class="text-brand-blue">Thrive.</span>
+                    </h2>
+                    <p class="text-lg text-gray-700">
+                        The PocketEd community is a vibrant space for students, parents, and educators to connect,
+                        learn, and grow their financial confidence.
+                    </p>
+                </header>
+
+                <section class="mb-24">
+                    <div id="community-carousel-container" class="relative">
+                        <div id="community-carousel"
+                            class="flex overflow-x-auto snap-x snap-mandatory no-scrollbar scroll-smooth rounded-2xl shadow-lg">
+                            <div class="snap-center shrink-0 w-full aspect-w-16">
+                                <img src="https://images.unsplash.com/photo-1573164713988-8665fc963095?q=80&w=1469"
+                                    class="w-full h-full object-cover" alt="Community event with people collaborating"
+                                    loading="lazy">
+                            </div>
+                            <div class="snap-center shrink-0 w-full aspect-w-16">
+                                <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?q=80&w=1374"
+                                    class="w-full h-full object-cover" alt="Students learning in a workshop"
+                                    loading="lazy">
+                            </div>
+                            <div class="snap-center shrink-0 w-full aspect-w-16">
+                                <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1471"
+                                    class="w-full h-full object-cover" alt="Group of people in a seminar"
+                                    loading="lazy">
+                            </div>
+                        </div>
+                        <div class="absolute inset-0 flex items-center justify-between px-4">
+                            <button id="community-prev-btn"
+                                class="w-12 h-12 bg-white/80 rounded-full shadow-md flex items-center justify-center text-brand-dark hover:bg-gray-200 transition">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M15 19l-7-7 7-7"></path>
+                                </svg>
+                            </button>
+                            <button id="community-next-btn"
+                                class="w-12 h-12 bg-white/80 rounded-full shadow-md flex items-center justify-center text-brand-dark hover:bg-gray-200 transition">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M9 5l7 7-7 7"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </section>
+
+                <section
+                    class="max-w-4xl mx-auto mb-24 text-lg text-gray-800 leading-relaxed space-y-6 bg-white p-10 rounded-2xl shadow-lg border">
+                    <h2 class="text-4xl font-extrabold text-brand-dark mb-6">Empowering the Next Generation</h2>
+                    <p>Financial literacy is more than just understanding numbers; it's a passport to freedom, security,
+                        and opportunity. In today's rapidly evolving world, the ability to manage money effectively is
+                        not a luxury—it's a fundamental life skill. It empowers individuals to make informed decisions,
+                        from managing daily expenses to planning for long-term goals like education, homeownership, and
+                        retirement. Without this knowledge, young people are vulnerable to crippling debt, predatory
+                        scams, and a lifetime of financial stress. By teaching these skills early, we are not just
+                        creating smarter consumers; we are building a generation of confident, responsible, and
+                        empowered citizens capable of securing their own futures and strengthening the nation's economy.
+                    </p>
+                    <p>At PocketEd, we believe that this education should be accessible, engaging, and relatable. We
+                        move beyond textbook definitions to immerse students in real-world scenarios they can
+                        understand. Our community-driven approach ensures that learning doesn't happen in isolation.
+                        It's a shared journey where students, parents, and educators collaborate, turning complex
+                        financial concepts into practical, lifelong habits. This foundation of knowledge is the greatest
+                        gift we can give to the architects of tomorrow.</p>
+                </section>
+
+                <section>
+                    <header class="text-center max-w-4xl mx-auto mb-12">
+                        <h2 class="text-4xl font-extrabold text-brand-dark">How to Join Our Community</h2>
+                    </header>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                        <div class="bg-white p-8 rounded-2xl shadow-lg card-lift">
+                            <i class="uil uil-graduation-cap text-6xl text-brand-blue mb-4"></i>
+                            <h3 class="text-2xl font-bold mb-3">Enroll in a Course</h3>
+                            <p class="text-gray-600 mb-6">Take the first step by joining one of our engaging, hands-on
+                                financial literacy programs.</p>
+                            <a href="#enroll" class="nav-link font-bold text-brand-blue hover:underline">Start Learning
+                                →</a>
+                        </div>
+                        <div class="bg-white p-8 rounded-2xl shadow-lg card-lift">
+                            <i class="uil uil-envelope-alt text-6xl text-brand-yellow mb-4"></i>
+                            <h3 class="text-2xl font-bold mb-3">Subscribe to Our Newsletter</h3>
+                            <p class="text-gray-600 mb-6">Get the latest tips, articles, and course updates delivered
+                                straight to your inbox.</p>
+                            <button id="join-newsletter-btn" class="font-bold text-brand-blue hover:underline">Subscribe
+                                Now →</button>
+                        </div>
+                        <div class="bg-white p-8 rounded-2xl shadow-lg card-lift">
+                            <i class="uil uil-users-alt text-6xl text-brand-purple mb-4"></i>
+                            <h3 class="text-2xl font-bold mb-3">Follow Us Online</h3>
+                            <p class="text-gray-600 mb-6">Connect with us on social media for daily insights, community
+                                discussions, and live events.</p>
+                            <div class="flex justify-center space-x-4">
+                                <a href="https://www.facebook.com/profile.php?id=61577362584941" target="_blank"
+                                    class="text-gray-500 hover:text-brand-blue text-3xl"
+                                    aria-label="Visit our Facebook page"><i class="uil uil-facebook-f"></i></a>
+                                <a href="https://www.instagram.com/pocketed.in/" target="_blank"
+                                    class="text-gray-500 hover:text-brand-pink text-3xl"
+                                    aria-label="Visit our Instagram profile"><i class="uil uil-instagram"></i></a>
+                                <a href="https://www.linkedin.com/company/pocketedco/" target="_blank"
+                                    class="text-gray-500 hover:text-brand-blue text-3xl"
+                                    aria-label="Visit our LinkedIn page"><i class="uil uil-linkedin-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <div id="privacy-policy-page" class="page-section legal-page">
+            <div class="container mx-auto px-6 py-16 md:py-24">
+                <header class="text-center max-w-4xl mx-auto mb-12">
+                    <h2 class="text-4xl md:text-7xl font-extrabold text-brand-dark">Privacy Policy</h2>
+                    <p class="text-lg text-gray-500 mt-4">Last Updated: June 12, 2025</p>
+                </header>
+                <div class="max-w-4xl mx-auto text-gray-700 space-y-8">
+                    <div class="p-8 bg-white rounded-2xl shadow-sm border">
+                        <p class="text-lg">
+                            Welcome to PocketEd ("we," "our," or "us"). We are committed to protecting your privacy.
+                            This Privacy Policy explains how we collect, use, disclose, and safeguard your information
+                            when you visit our website, pocketed.in. Please read this privacy policy carefully. If you
+                            do not agree with the terms of this privacy policy, please do not access the site.
+                        </p>
+                        <p class="mt-4 text-sm text-red-600 font-bold">
+                            Disclaimer: This is a template and not legal advice. Please consult with a legal
+                            professional to ensure this policy meets your specific needs and complies with all
+                            applicable laws.
+                        </p>
+                    </div>
+
+                    <div class="space-y-6">
+                        <h3 class="text-3xl font-bold text-brand-dark border-b pb-2">1. Information We Collect</h3>
+                        <p>We may collect information about you in a variety of ways. The information we may collect on
+                            the Site includes personally identifiable information, such as your name, shipping address,
+                            email address, and telephone number, and demographic information, such as your age, gender,
+                            hometown, and interests, that you voluntarily give to us when you register with the Site or
+                            when you choose to participate in various activities related to the Site, such as online
+                            chat and message boards.</p>
+                        <h3 class="text-3xl font-bold text-brand-dark border-b pb-2">2. How We Use Your Information</h3>
+                        <p>Having accurate information about you permits us to provide you with a smooth, efficient, and
+                            customized experience. Specifically, we may use information collected about you via the Site
+                            to: respond to your inquiries, send you our newsletter, request feedback and contact you
+                            about your use of the Site, and improve the efficiency and operation of the Site.</p>
+                        <h3 class="text-3xl font-bold text-brand-dark border-b pb-2">3. Data Security</h3>
+                        <p>We use administrative, technical, and physical security measures to help protect your
+                            personal information. While we have taken reasonable steps to secure the personal
+                            information you provide to us, please be aware that despite our efforts, no security
+                            measures are perfect or impenetrable, and no method of data transmission can be guaranteed
+                            against any interception or other type of misuse.</p>
+                        <h3 class="text-3xl font-bold text-brand-dark border-b pb-2">4. Policy for Children</h3>
+                        <p>We do not knowingly solicit information from or market to children under the age of 13. If
+                            you become aware of any data we have collected from children under age 13, please contact us
+                            using the contact information provided below.</p>
+                        <h3 class="text-3xl font-bold text-brand-dark border-b pb-2">5. Contact Us</h3>
+                        <p>If you have questions or comments about this Privacy Policy, please contact us at: <a
+                                href="mailto:info@pocketed.in"
+                                class="text-brand-blue hover:underline">info@pocketed.in</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="terms-conditions-page" class="page-section legal-page">
+            <div class="container mx-auto px-6 py-16 md:py-24">
+                <header class="text-center max-w-4xl mx-auto mb-12">
+                    <h2 class="text-4xl md:text-7xl font-extrabold text-brand-dark">Terms and Conditions</h2>
+                    <p class="text-lg text-gray-500 mt-4">Last Updated: June 12, 2025</p>
+                </header>
+                <div class="max-w-4xl mx-auto text-gray-700 space-y-8">
+                    <div class="p-8 bg-white rounded-2xl shadow-sm border">
+                        <p class="text-lg">
+                            These Terms and Conditions ("Terms") govern your use of the PocketEd website located at
+                            pocketed.in. By accessing this website, you agree to be bound by these Terms.
+                        </p>
+                        <p class="mt-4 text-sm text-red-600 font-bold">
+                            Disclaimer: This is a template and not legal advice. Please consult with a legal
+                            professional to ensure these terms are appropriate for your business.
+                        </p>
+                    </div>
+
+                    <div class="space-y-6">
+                        <h3 class="text-3xl font-bold text-brand-dark border-b pb-2">1. Intellectual Property Rights
+                        </h3>
+                        <p>Unless otherwise indicated, the Site is our proprietary property and all source code,
+                            databases, functionality, software, website designs, audio, video, text, photographs, and
+                            graphics on the Site (collectively, the "Content") and the trademarks, service marks, and
+                            logos contained therein (the "Marks") are owned or controlled by us or licensed to us, and
+                            are protected by copyright and trademark laws.</p>
+                        <h3 class="text-3xl font-bold text-brand-dark border-b pb-2">2. User Representations</h3>
+                        <p>By using the Site, you represent and warrant that: (1) all registration information you
+                            submit will be true, accurate, current, and complete; (2) you will maintain the accuracy of
+                            such information and promptly update such registration information as necessary; (3) you
+                            have the legal capacity and you agree to comply with these Terms and Conditions.</p>
+                        <h3 class="text-3xl font-bold text-brand-dark border-b pb-2">3. Prohibited Activities</h3>
+                        <p>You may not access or use the Site for any purpose other than that for which we make the Site
+                            available. The Site may not be used in connection with any commercial endeavors except those
+                            that are specifically endorsed or approved by us.</p>
+                        <h3 class="text-3xl font-bold text-brand-dark border-b pb-2">4. Governing Law</h3>
+                        <p>These Terms and Conditions and your use of the Site are governed by and construed in
+                            accordance with the laws of India, applicable to agreements made and to be entirely
+                            performed within Mumbai, Maharashtra, without regard to its conflict of law principles.</p>
+                        <h3 class="text-3xl font-bold text-brand-dark border-b pb-2">5. Contact Us</h3>
+                        <p>In order to resolve a complaint regarding the Site or to receive further information
+                            regarding use of the Site, please contact us at: <a href="mailto:info@pocketed.in"
+                                class="text-brand-blue hover:underline">info@pocketed.in</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="bg-brand-dark text-white pt-20">
+        <div class="container mx-auto px-6 pb-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-10">
+            <div>
+                <h3 class="text-3xl font-extrabold tracking-wider">
+                    <span class="text-brand-blue desktop-logo">Pocket</span><span
+                        class="text-brand-blue mobile-logo hidden">Pocket</span><span
+                        class="text-brand-yellow">Ed</span>
+                </h3>
+                <p class="text-gray-400 mt-4">Join us in shaping the future of financial literacy! Follow us for updates
+                    and resources to empower students.</p>
+            </div>
+            <div>
+                <h4 class="font-bold text-lg mb-4 mt-6 sm:mt-0">Permalinks</h4>
+                <ul class="space-y-2">
+                    <li><a href="#home" class="nav-link text-gray-400 hover:text-white">Home</a></li>
+                    <li><a href="#courses-page" class="nav-link text-gray-400 hover:text-white">Courses</a></li>
+                    <li><a href="#blog-page" class="nav-link text-gray-400 hover:text-white">Blog</a></li>
+                    <li><a href="#community-page" class="nav-link text-gray-400 hover:text-white">Community</a></li>
+                    <li><a href="#journey" class="nav-link text-gray-400 hover:text-white">Journey</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold text-lg mb-4 mt-6 sm:mt-0">Privacy</h4>
+                <ul class="space-y-2">
+                    <li><a href="#privacy-policy-page" class="nav-link text-gray-400 hover:text-white">Privacy
+                            Policy</a></li>
+                    <li><a href="#terms-conditions-page" class="nav-link text-gray-400 hover:text-white">Terms and
+                            Conditions</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold text-lg mb-4 mt-6 sm:mt-0">Contact Us</h4>
+                <ul class="space-y-2 text-gray-400">
+                    <li>+91 8369139156</li>
+                    <li>info@pocketed.in</li>
+                </ul>
+                <h4 class="font-bold text-lg mt-6 mb-4">Newsletter</h4>
+                <form id="newsletter-form" action="https://formspree.io/f/mblyokkk" method="POST" class="flex">
+                    <input type="email" name="email" placeholder="Enter your Email ID"
+                        class="w-full bg-gray-800 border border-gray-700 text-white px-4 py-2 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-brand-yellow"
+                        required>
+                    <button type="submit" class="bg-brand-yellow text-brand-dark px-4 py-2 rounded-r-lg"><i
+                            class="uil uil-arrow-right"></i></button>
+                </form>
+                <p id="newsletter-feedback" class="text-sm text-green-400 mt-2 h-4"></p>
+                <div class="flex space-x-4 mt-6">
+                    <a href="https://www.facebook.com/profile.php?id=61577362584941" target="_blank"
+                        class="text-gray-400 hover:text-white text-2xl" aria-label="Visit our Facebook page"><i
+                            class="uil uil-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/pocketed.in/" target="_blank"
+                        class="text-gray-400 hover:text-white text-2xl" aria-label="Visit our Instagram profile"><i
+                            class="uil uil-instagram"></i></a>
+                    <a href="https://www.linkedin.com/company/pocketedco/" target="_blank"
+                        class="text-gray-500 hover:text-brand-blue text-3xl" aria-label="Visit our LinkedIn page"><i
+                            class="uil uil-linkedin-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="border-t border-gray-800 py-6 text-center text-gray-500 text-sm">
+            <p>© 2025 <span class="text-brand-blue">Pocket</span><span class="text-brand-yellow">Ed</span> by AURA
+                EDUAID PVT LTD. All rights reserved.</p>
+            <p class="mt-2">All content on this website, including text, images, logos, and designs, is the property of
+                AURA EDUAID PVT LTD. Unauthorised use, reproduction, or distribution is not permitted without prior
+                consent.</p>
+        </div>
+    </footer>
+
+    <div id="video-modal"
+        class="fixed inset-0 bg-black/80 z-[100] hidden items-center justify-center opacity-0 transition-opacity duration-300">
+        <div class="bg-black w-full max-w-4xl aspect-video relative m-4">
+            <button id="close-modal-btn" class="absolute -top-8 right-0 text-white text-5xl">×</button>
+            <iframe id="video-iframe" class="w-full h-full"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div id="newsletter-modal"
+        class="fixed inset-0 bg-black/70 z-[100] items-center justify-center transition-opacity duration-300 opacity-0 invisible">
+        <div
+            class="bg-white w-full max-w-lg m-6 rounded-2xl shadow-xl p-8 relative transform scale-95 transition-transform duration-300">
+            <button id="close-newsletter-btn"
+                class="absolute top-4 right-4 text-gray-400 hover:text-brand-dark text-2xl">×</button>
+            <h2 class="text-3xl font-extrabold text-brand-dark mb-4">Join Our Community</h2>
+            <p class="text-gray-600 mb-6">Subscribe to our newsletter for the latest financial tips, course updates, and
+                exclusive offers.</p>
+            <form id="popup-newsletter-form" action="https://formspree.io/f/mblyokkk" method="POST">
+                <div class="space-y-4">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div>
+                            <label for="popup-name" class="font-semibold block mb-1">Full Name</label>
+                            <input type="text" id="popup-name" name="name" placeholder="Your Name"
+                                class="w-full p-3 border rounded-lg" required>
+                        </div>
+                        <div>
+                            <label for="popup-role" class="font-semibold block mb-1">I am a...</label>
+                            <select id="popup-role" name="role" class="w-full p-3 border rounded-lg bg-white">
+                                <option>Student</option>
+                                <option>Parent</option>
+                                <option>Educator</option>
+                                <option>Business</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="popup-email" class="font-semibold block mb-1">Email Address</label>
+                        <input type="email" id="popup-email" name="email" placeholder="you@example.com"
+                            class="w-full p-3 border rounded-lg" required>
+                    </div>
+                </div>
+                <button type="submit"
+                    class="w-full mt-6 bg-brand-yellow text-brand-dark font-extrabold text-xl py-4 rounded-xl shadow-md hover:bg-yellow-300 transition-all transform hover:scale-105">Subscribe
+                    Now</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/mobile-menu.js"></script>
+</body>
+
+</html>

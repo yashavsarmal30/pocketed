@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "npx serve",
+    "dev": "npx serve",
     "build": "tailwindcss -i ./src/input.css -o ./css/style.css",
     "watch": "tailwindcss -i ./src/input.css -o ./css/style.css --watch"
   },
